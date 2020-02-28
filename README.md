@@ -33,25 +33,7 @@ poetry add "package name"
 
 #### run container
 
-- run jupyter lab
-
-```bash
-docker-compose up -d jupyter
-```
-
-then access localhost:8888
-
-- run python script in docker
-
-attach docker container.
-
-```bash
-docker-compose run jupyter /bin/bash
-```
-
-you can exec `python` command.
-
-- run api
+##### api
 
 ```bash
 docker-compose up -d api
@@ -74,7 +56,7 @@ then, create files for distribution in `dist/`
 https
 
 ```bash
-pip3 install --user https://github.com/uni-3/fastapi_mock.git
+pip3 install --user git+https://github.com/uni-3/fastapi_mock.git
 ```
 
 ssh
@@ -98,6 +80,6 @@ fastapi-mock 0.1.0
 - uninstall package
 
 ```
-pip3 uninstall  fastapi-mock
+pip3 uninstall fastapi_mock
 ```
 
