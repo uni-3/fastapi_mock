@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fastapi_mock"
+version = "0.1.0"
+description = "testing python package"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^1.0.1"
+numpy = "^1.18.1"
+matplotlib = "^3.1.3"
+seaborn = "^0.10.0"
+japanize-matplotlib = "^1.0.5"
+fastapi = "^0.49.0"
+uvicorn = "^0.11.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+#[tool.poetry.scripts]
+#fastapi_mock = "fastapi_mock:main"

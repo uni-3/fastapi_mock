@@ -1,0 +1,12 @@
+version: '3'
+services:
+  api:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app/src
+    working_dir: /app/src
+    ports:
+      - "8000:8000"
+    command: uvicorn fastapi_mock:app --reload --host 0.0.0.0 --port 8000
