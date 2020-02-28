@@ -1,0 +1,9 @@
+README.md
+fastapi_mock.py
+setup.py
+fastapi_mock.egg-info/PKG-INFO
+fastapi_mock.egg-info/SOURCES.txt
+fastapi_mock.egg-info/dependency_links.txt
+fastapi_mock.egg-info/entry_points.txt
+fastapi_mock.egg-info/requires.txt
+fastapi_mock.egg-info/top_level.txt
