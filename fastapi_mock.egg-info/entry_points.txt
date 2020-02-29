@@ -1,3 +1,0 @@
-[console_scripts]
-fastapi_mock = fastapi_mock:main
-
